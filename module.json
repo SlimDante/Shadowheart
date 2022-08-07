@@ -1,0 +1,30 @@
+{   
+   "name": "Shadowheart",   
+   "title": "Shadowheart Apocrypha Module",   
+   "description": "A collection of works by Seth Dracovitch",   
+   "author": "SlimDante",
+   "version": "0.1.0",
+   "minimumCoreVersion": "0.8.3",
+   "compatibleCoreVersion": "9",
+   
+   "packs": [
+    {
+      "name": "Ascendancy",
+      "label": "Ascendancy",
+      "path": "packs/ascendancy.db",
+      "entity": "Item",
+      "module": "Shadowheart"
+    },
+    {
+      "name": "Ascendancy Macro",
+      "label": "Ascendancy Macro",
+      "path": "packs/ascendancy-macro.db",
+      "entity": "Macro",
+      "module": "Shadowheart"
+    }
+  ],
+  "url": "https://github.com/SlimDante/Shadowheart",
+  "manifest": "https://raw.githubusercontent.com/SlimDante/Shadowheart/master/module.json",
+  "download": "https://github.com/SlimDante/Shadowheart/archive/0.1.0.zip",
+  "license" : "Not to be shared for money."  
+}
