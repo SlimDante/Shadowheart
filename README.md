@@ -1,2 +1,3 @@
 # Shadowheart
-Seth's Stuff
+A collection of works by Seth Dracovitch
+Maintained by Slim Dante
