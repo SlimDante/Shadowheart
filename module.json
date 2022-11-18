@@ -2,21 +2,14 @@
 	"id": "Shadowheart",
 	"title": "Shadowheart Apocrypha Module",
 	"description": "A collection of works by Seth Dracovitch",
-	"version": "1.0.1.a",
-	"compatibility": {
-		"minimum": "10",
-		"verified": "10"
-	},
-	"authors": [{
-		"name": "SlimDante"
-	}],
+	"version": "1.0.1.b",
+	"compatibility": {"minimum": "10", "verified": "10"},
+	"authors": [{"name": "SlimDante"},{"name": "Dracovitch"}],
 	"relationships": {
 		"systems": [{
 			"id": "dnd5e",
 			"type": "system",
-			"compatibility": {
-				"minimum": "2.0.0"
-			}
+			"compatibility": {"minimum": "2.0.0"}
 		}]
 	},
 	"packs": [{
@@ -24,8 +17,7 @@
 			"label": "Ascendancy",
 			"path": "packs/ascendancy.db",
 			"type": "Item",
-			"module": "Shadowheart",
-			"system": "dnd5e"
+			"module": "Shadowheart"
 		},
 		{
 			"name": "Ascendancy Macro",
@@ -37,6 +29,6 @@
 	],
 	"url": "https://github.com/SlimDante/Shadowheart",
 	"manifest": "https://raw.githubusercontent.com/SlimDante/Shadowheart/master/module.json",
-	"download": "https://github.com/SlimDante/Shadowheart/archive/1.0.1.a.zip",
+	"download": "https://github.com/SlimDante/Shadowheart/archive/1.0.1.b.zip",
 	"license": "Not to be shared for money."
 }
