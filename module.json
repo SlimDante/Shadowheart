@@ -1,30 +1,41 @@
-{   
-   "name": "Shadowheart",   
-   "title": "Shadowheart Apocrypha Module",   
-   "description": "A collection of works by Seth Dracovitch",   
-   "author": "SlimDante",
-   "version": "1.0.0c",
-   "minimumCoreVersion": "0.8.3",
-   "compatibleCoreVersion": "9",
-   
-   "packs": [
-    {
-      "name": "Ascendancy",
-      "label": "Ascendancy",
-      "path": "packs/ascendancy.db",
-      "entity": "Item",
-      "module": "Shadowheart"
-    },
-    {
-      "name": "Ascendancy Macro",
-      "label": "Ascendancy Macro",
-      "path": "packs/ascendancy-macro.db",
-      "entity": "Macro",
-      "module": "Shadowheart"
-    }
-  ],
-  "url": "https://github.com/SlimDante/Shadowheart",
-  "manifest": "https://raw.githubusercontent.com/SlimDante/Shadowheart/master/module.json",
-  "download": "https://github.com/SlimDante/Shadowheart/archive/1.0.0c.zip",
-  "license" : "Not to be shared for money."  
+{
+	"id": "Shadowheart",
+	"title": "Shadowheart Apocrypha Module",
+	"description": "A collection of works by Seth Dracovitch",
+	"version": "1.0.1",
+	"compatibility": {
+		"minimum": "10",
+		"verified": "10"
+	},
+	"authors": [{
+		"name": "SlimDante"
+	}],
+	"relationships": {
+		"systems": [{
+			"id": "dnd5e",
+			"type": "system",
+			"compatibility": {
+				"minimum": "2.0.0"
+			}
+		}]
+	},
+	"packs": [{
+			"name": "Ascendancy",
+			"label": "Ascendancy",
+			"path": "packs/ascendancy.db",
+			"type": "Item",
+			"module": "Shadowheart"
+		},
+		{
+			"name": "Ascendancy Macro",
+			"label": "Ascendancy Macro",
+			"path": "packs/ascendancy-macro.db",
+			"type": "Macro",
+			"module": "Shadowheart"
+		}
+	],
+	"url": "https://github.com/SlimDante/Shadowheart",
+	"manifest": "https://raw.githubusercontent.com/SlimDante/Shadowheart/master/module.json",
+	"download": "https://github.com/SlimDante/Shadowheart/archive/1.0.1.zip",
+	"license": "Not to be shared for money."
 }
