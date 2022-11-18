@@ -24,7 +24,8 @@
 			"label": "Ascendancy",
 			"path": "packs/ascendancy.db",
 			"type": "Item",
-			"module": "Shadowheart"
+			"module": "Shadowheart",
+			"system": "dnd5e"
 		},
 		{
 			"name": "Ascendancy Macro",
