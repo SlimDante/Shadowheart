@@ -2,7 +2,7 @@
 	"id": "Shadowheart",
 	"title": "Shadowheart Apocrypha Module",
 	"description": "A collection of works by Seth Dracovitch",
-	"version": "1.0.1.b",
+	"version": "1.0.1.c",
 	"compatibility": {"minimum": "10", "verified": "10"},
 	"authors": [{"name": "SlimDante"},{"name": "Dracovitch"}],
 	"relationships": {
@@ -29,6 +29,6 @@
 	],
 	"url": "https://github.com/SlimDante/Shadowheart",
 	"manifest": "https://raw.githubusercontent.com/SlimDante/Shadowheart/master/module.json",
-	"download": "https://github.com/SlimDante/Shadowheart/archive/1.0.1.b.zip",
+	"download": "https://github.com/SlimDante/Shadowheart/archive/1.0.1.c.zip",
 	"license": "Not to be shared for money."
 }
