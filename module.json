@@ -2,14 +2,14 @@
 	"id": "Shadowheart",
 	"title": "Shadowheart Apocrypha Module",
 	"description": "A collection of works by Seth Dracovitch",
-	"version": "1.0.1.c",
+	"version": "1.0.2.a",
 	"compatibility": {"minimum": "10", "verified": "10"},
 	"authors": [{"name": "SlimDante"},{"name": "Dracovitch"}],
 	"relationships": {
 		"systems": [{
 			"id": "dnd5e",
 			"type": "system",
-			"compatibility": {"minimum": "2.0.0"}
+			"compatibility": {"minimum": "2.0.3"}
 		}]
 	},
 	"packs": [{
@@ -25,10 +25,24 @@
 			"path": "packs/ascendancy-macro.db",
 			"type": "Macro",
 			"module": "Shadowheart"
+		},
+		{
+			"name": "Non-Concentration Spells",
+			"label": "Non-Concentration Spells",
+			"path": "packs/non-concentration-spells.db",
+			"type": "Item",
+			"module": "Shadowheart"
+		},
+		{
+			"name": "The Great Wyrm",
+			"label": "The Great Wyrm",
+			"path": "packs/the-great-wyrm.db",
+			"type": "Item",
+			"module": "Shadowheart"
 		}
 	],
 	"url": "https://github.com/SlimDante/Shadowheart",
 	"manifest": "https://raw.githubusercontent.com/SlimDante/Shadowheart/master/module.json",
-	"download": "https://github.com/SlimDante/Shadowheart/archive/1.0.1.c.zip",
+	"download": "https://github.com/SlimDante/Shadowheart/archive/1.0.2.a.zip",
 	"license": "Not to be shared for money."
 }
